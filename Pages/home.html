@@ -6,21 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../styles/header.css">
+    <script src="/scripts/hamburger.js" defer></script>
 </head>
 
 <body>
-    <header class="site-header">
-        <nav class="navbar">
-            <div class="logo"><a href="home.html"><img src="../Assets/icons/logo.svg" alt=""></a></div>
-            <ul class="page-link">
-                <li><a href="home.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="blog.html">BLOG</a></li>
-            </ul>
-            <div class="header-cta">
-                <a href="bokking.html" class="btn-book">BOOK NOW</a>
-            </div>
-        </nav>
+    <header>
+        <div class="site-header">
+            <nav class="navbar">
+                <div class="logo"><a href="home.html"><img src="../Assets/icons/logo.svg" alt=""></a></div>
+                <ul class="page-link">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="about.html">CONTACT US</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                </ul>
+                <div class="header-cta">
+                    <a href="bokking.html" class="btn-book">BOOK NOW</a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+
+        </div>
+        <ul class="mobile-nav hide">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="about.html">CONTACT US</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+
+        </ul>
     </header>
 
 </body>
