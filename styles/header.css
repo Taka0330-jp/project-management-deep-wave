@@ -55,6 +55,11 @@
     border-radius: 30px;
     background: #F27F2C;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.header-cta:hover {
+    background-color: #723000;
 }
 
 .hamburger {
