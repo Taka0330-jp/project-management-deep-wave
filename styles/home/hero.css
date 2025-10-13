@@ -11,7 +11,7 @@ h1 {
 }
 
 .container {
-    background: url(../Assets/images/hero-img.png);
+    background: url(../../Assets/images/hero-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
