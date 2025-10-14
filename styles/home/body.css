@@ -219,7 +219,7 @@ a:hover {
 /* ========== HELP SECTION ========== */
 .home-help {
   background-color: #9FE7F5;
-  color: #fff;
+  color: #222222;
   text-align: center;
   padding: 5rem 8%;
 }
@@ -235,7 +235,7 @@ a:hover {
 }
 
 .home-help p a {
-  color: #fff;
+  color: #222222;
   text-decoration: underline;
   background: none;
   padding: 0;
