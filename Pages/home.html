@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="../styles/footer.css">
     <link rel="stylesheet" href="../styles/home/hero.css">
     <link rel="stylesheet" href="../styles/home/body.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <script src="/scripts/hamburger.js" defer></script>
 </head>
 
@@ -75,59 +81,51 @@
 
         <!-- Activities Overview -->
         <section class="home-activities">
-            <h2 class="activities-title">Activities Overview</h2>
+  <h2>Activities Overview</h2>
 
-            <div class="slides">
+  <div class="slider">
+    <div class="slides">
+      <!-- Slide 1 -->
+      <div class="activity-card" style="background-image: url(/Assets/images/Surf.png);">
+        <div class="activity-content">
+          <h3>Surfing</h3>
+          <p>Ride the Pacific swells and feel the west coast spirit! Just a short trip from Vancouver,
+            Tofino’s sandy beaches and consistent waves offer the ultimate surf experience for all levels.
+            From beginner lessons to advanced sessions, surfing here combines adventure, nature, and the
+            laid-back coastal lifestyle that defines British Columbia’s surf culture.</p>
+          <a href="../Pages/booking.html">Book Now</a>
+        </div>
+      </div>
 
-                <!-- Slide 1: Surfing -->
-                <article class="activity-card">
-                    <div class="activity-image">
-                        <img src="/Assets/images/Surf.png" alt="surfing">
-                    </div>
+      <!-- Slide 2 -->
+      <div class="activity-card" style="background-image: url(/Assets/images/Scuba.png);">
+        <div class="activity-content">
+          <h3>Scuba Diving</h3>
+          <p>Dive beneath Vancouver’s waves and discover a world of marine wonder! Explore colorful reefs,
+            shipwrecks, and marine life at popular spots like Whytecliff Park and Porteau Cove.</p>
+          <a href="../Pages/booking.html">Book Now</a>
+        </div>
+      </div>
 
-                    <div class="activity-content">
-                        <h3>Surfing</h3>
-                        <p>Ride the Pacific swells and feel the west coast spirit! Just a short trip from Vancouver,
-                            Tofino’s sandy beaches and consistent waves offer the ultimate surf experience for all
-                            levels. From beginner lessons to advanced sessions, surfing here combines adventure, nature,
-                            and the laid-back coastal lifestyle that defines British Columbia’s surf culture.</p>
-                        <a href="../Pages/booking.html">Book Now</a>
-                    </div>
-                </article>
+      <!-- Slide 3 -->
+      <div class="activity-card" style="background-image: url(/Assets/images/JetSki.png);">
+        <div class="activity-content">
+          <h3>Jet Skiing</h3>
+          <p>Speed through English Bay and False Creek for an adrenaline-filled experience with breathtaking
+            views of Vancouver’s skyline and coastal beauty.</p>
+          <a href="../Pages/booking.html">Book Now</a>
+        </div>
+      </div>
+    </div>
 
-                <!-- Slide 2: Scuba Diving -->
-                <article class="activity-card">
-                    <div class="activity-image">
-                        <img src="/Assets/images/Scuba.png" alt="scuba diving">
-                    </div>
-
-                    <div class="activity-content">
-                        <h3>Surfing</h3>
-                        <p>Dive beneath Vancouver’s waves and discover a world of marine wonder! Explore colorful reefs,
-                            shipwrecks, and marine life at popular spots like Why tecliff Park and Porteau Cove. Whether
-                            you’re a first-time diver or a certified explorer, guided tours and training sessions make
-                            it easy to experience the beauty of the Pacific Northwest from a whole new perspective.</p>
-                        <a href="../Pages/booking.html">Book Now</a>
-                    </div>
-                </article>
-
-                <!-- Slide 1: Jet Skiing -->
-                <article class="activity-card">
-                    <div class="activity-image">
-                        <img src="/Assets/images/JetSki.png" alt="jet skking">
-                    </div>
-
-                    <div class="activity-content">
-                        <h3>Jet Skiing</h3>
-                        <p>Experience Vancouver from a thrilling new angle, on the water! Jet skiing through English Bay
-                            and False Creek gives you breathtaking views of the skyline and mountains while you feel the
-                            rush of the open sea. Perfect for friends, families, or adventure seekers, our jet ski
-                            experiences blend speed, freedom, and fun in one unforgettable ride.</p>
-                        <a href="../Pages/booking.html">Book Now</a>
-                    </div>
-                </article>
-            </div>
-        </section>
+    <!-- Navigation Dots -->
+    <div class="navigation">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+</section>
 
         <!-- Help Section -->
         <section class="home-help">
@@ -148,7 +146,7 @@
                         whole time."</blockquote>
 
                     <figcaption>
-                        <img class="avatar" src="" alt="photo of Gordon M.">
+                        <img class="avatar" src="/Assets/images/Gordon.png" alt="photo of Gordon M.">
                         <span class="name">Gordon M.</span>
                     </figcaption>
                 </figure>
@@ -159,7 +157,7 @@
                         beautiful."</blockquote>
 
                     <figcaption>
-                        <img class="avatar" src="" alt="photo of Andy R.">
+                        <img class="avatar" src="/Assets/images/Andy.png" alt="photo of Andy R.">
                         <span class="name">Andy R.</span>
                     </figcaption>
                 </figure>
@@ -170,7 +168,7 @@
                     </blockquote>
 
                     <figcaption>
-                        <img class="avatar" src="" alt="photo of Lucas H.">
+                        <img class="avatar" src="/Assets/images/Lucas.png" alt="photo of Lucas H.">
                         <span class="name">Lucas H.</span>
                     </figcaption>
                 </figure>
@@ -251,7 +249,7 @@
                 <h2 id="subscribe-title">Get news and updates from DeepWave</h2>
 
                 <form action="#" class="subscribe-form" method="post">
-                    <label for="subscribe-email" class="subscribe-email">Your Email</label>
+                    <label for="subscribe-email" class="subscribe-email"></label>
                     <input type="email" name="email" id="subscribe-email" placeholder="Your Email" required>
                     <button class="button" type="submit">SUBSCRIBE</button>
                 </form>
