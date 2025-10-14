@@ -7,7 +7,7 @@
     }
 
     .swiper {
-        padding: 3rem;
+        padding: 2rem;
 
 
         .swiper-wrapper {
@@ -54,7 +54,8 @@
                     }
 
                     .btn {
-                        text-align: center;
+                        align-self: flex-end;
+                        margin-top: 1rem;
                     }
 
 
