@@ -1,0 +1,48 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    color: #fff;
+    height: 260px;
+    width: 100%;
+    background-color: #5370FA;
+}
+
+footer .footer-content {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+footer .flex {
+    display: flex;
+}
+
+footer .social-link {
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+.copyright {
+    background-color: #243C79;
+    text-align: center;
+}
