@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DEEPWAVE</title>
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="/scripts/hamburger.js" defer></script>
+    <script src="../scripts/swiper.js" defer></script>
+    <script src="/scripts/faqs.js" defer></script>
+</head>
+
+<body>
+     <header>
+        <div class="site-header">
+            <nav class="navbar">
+                <div class="logo"><a href="home.html"><img src="../Assets/icons/logo.svg" alt=""></a></div>
+                <ul class="page-link">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="about.html">CONTACT US</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                </ul>
+                <div class="header-cta">
+                    <a href="booking.html" class="btn-book">BOOK NOW</a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+
+        </div>
+        <ul class="mobile-nav hide">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="about.html">CONTACT US</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+
+        </ul>
+    </header>
+
+    <main>
+        <section class="about-hero">
+            <div class="container"></div>
+        </section>
+
+        <section class="our-story">
+
+        </section>
+
+         <section class="about-contact">
+            <h2 id="contact-title">Contact Us</h2>
+
+            <form action="#" class="contact-form" method="post" data-form="contact">
+                <div class="field-row">
+                    <label for="first-name">First Name*</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+
+                <div class="field-row">
+                    <label for="last-name">Last Name*</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+
+                <div class="field-row">
+                    <label for="phone">Phone Number*</label>
+                    <input type="number" id="phone" name="phone" required>
+                </div>
+
+                <div class="field-row">
+                    <label for="email">Email Address*</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="field-row">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+
+                <button class="button" type="submit">Send</button>
+            </form>
+        </section>
+
+        <section class="about-subscribe">
+            <div class="subscribe-bar">
+                <h2 id="subscribe-title">Get news and updates from DeepWave</h2>
+
+                <form action="#" class="subscribe-form" method="post">
+                    <label for="subscribe-email" class="subscribe-email"></label>
+                    <input type="email" name="email" id="subscribe-email" placeholder="Your Email" required>
+                    <button class="button" type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Contact us</h3>
+                <div class="flex">
+                    <img src="../Assets/icons/call.svg" alt="">
+                    <p>+1 789 345 786</p>
+                </div>
+                <div class="flex">
+                    <img src="../Assets/icons/MapPinSimple.svg" alt="">
+                    <p>555 Vancouver, BC</p>
+                </div>
+                <div class="flex social-link">
+                    <img src="../Assets/icons/logo.svg" alt="">
+                    <img src="../Assets/icons/Instagram Circle.svg" alt="">
+                    <img src="../Assets/icons/Facebook.svg" alt="">
+                    <img src="../Assets/icons/YouTube.svg" alt="">
+                </div>
+            </div>
+            <div class="footer-col">
+                <p>Home</p>
+                <p>Blog</p>
+                <p>Booking</p>
+                <p>About</p>
+            </div>
+
+        </div>
+        <p class="copyright">
+            &copy; 2025 DeepWave Explorers. All Rights Reserved.
+        </p>
+    </footer>
+</body>
+</html>
