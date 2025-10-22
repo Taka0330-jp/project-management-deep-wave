@@ -13,6 +13,142 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
+/* ===============================
+   OUR STORY SECTION
+   =============================== */
+.home-story {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  padding: 6rem 8%;
+  background: #fff;
+}
+
+.story-images {
+  position: relative;
+  flex: 1 1 40%;
+  max-width: 480px;
+}
+
+.story-images .img-large {
+  width: 100%;
+  border-radius: 20px;
+  transform: rotate(10deg);
+}
+
+.story-images .img-small {
+  position: absolute;
+  width: 45%;
+  bottom: -40px;
+  left: -50px;
+  border-radius: 15px;
+  transform: rotate(-6deg);
+}
+
+.story-content {
+  flex: 1 1 45%;
+  max-width: 500px;
+}
+
+.story-content h2 {
+  font-size: 2rem;
+  color: #111;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.story-content p {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* ===============================
+   OUR ACTIVITIES SECTION
+   =============================== */
+.home-activities-highlight {
+  background-image: url('../Assets/images/activity.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+  margin: 6rem 8%;
+  padding: 5rem 8%;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  opacity: 90%;
+}
+
+/* dark gradient overlay for readability */
+.home-activities-highlight::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 30px;
+}
+
+.activities-content {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  text-align: left;
+}
+
+.activities-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.activities-content p {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.btn-discover {
+  display: inline-block;
+  padding: 0.9rem 1.8rem;
+  background-color: #ff8c00;
+  color: #fff;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn-discover:hover {
+color: #004f73;}
+
+/* ===============================
+   RESPONSIVE DESIGN
+   =============================== */
+@media (max-width: 768px) {
+  .home-story {
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 6%;
+  }
+
+  .story-images .img-small {
+    position: static;
+    transform: rotate(-4deg);
+    margin-top: 1rem;
+  }
+
+  .home-activities-highlight {
+    margin: 4rem 5%;
+    padding: 4rem 6%;
+  }
+
+  .activities-content {
+    text-align: center;
+  }
+}
+
 /* ========== CONTACT FORM SECTION ========== */
 .about-contact {
   background-image: url(/Assets/images/Contact\ us.png);
