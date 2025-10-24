@@ -20,7 +20,7 @@ function renderTagBtn(){
         btn.addEventListener('click', ()=>{
             activeTag = tag;
             renderTagBtn();
-            // renderList();
+            renderList();
         });
         li.appendChild(btn);
         tagList.appendChild(li);
@@ -42,9 +42,19 @@ function createCard(p){
 
 
 function renderList(){
+    const filtered = blogPosts.filter(p =>{
+        let tagOk;
+         if(activeTag === "All"){
+            tagOk = true;
+         }else {
+            tagOk = (p.tag ?? []).includes(activeTag)
+         }
+         return tagOk;
+    })
+
     cardGrid.innerHTML = "";
     const frag = document.createDocumentFragment();
-    blogPosts.forEach(post =>{
+    filtered.forEach(post =>{
         frag.appendChild(createCard(post));
     });
             cardGrid.appendChild(frag)
