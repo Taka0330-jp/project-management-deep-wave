@@ -4,10 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>DEEPWAVE</title>
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/home/hero.css">
+    <link rel="stylesheet" href="../styles/home/body.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <script src="/scripts/hamburger.js" defer></script>
+    <script src="../scripts/swiper.js" defer></script>
+    <script src="/scripts/faqs.js" defer></script>
 </head>
 
 <body>
@@ -41,6 +52,213 @@
         </ul>
     </header>
 
+
+
+    <main>
+        <!-- Hero Section -->
+        <section class="home-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Make Waves in</br>Vancouver</h1>
+                    <div class="btn-wrapper"><a href="../Pages/booking.html" class="btn">Book Now</a></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section class="home-about">
+            <div class="about-image">
+                <img src="/Assets/images/Rectangle 4185.png" alt="diver near coral">
+            </div>
+
+            <div class="about-content">
+                <h2 id="about-title">About DeepWave</h2>
+                <p>With certified instructors, top-quality equipment, and a passion for the sea, we design experiences
+                    that combine fun, safety, and exploration. Whether you’re riding your first wave, diving into
+                    vibrant coral reefs, or enjoying a family snorkeling trip, our team is here to guide every step of
+                    your journey.</p>
+                <a href="../Pages/about.html">Learn more</a>
+            </div>
+        </section>
+
+        <!-- Activities Overview -->
+        <section class="home-activities">
+  <h2>Activities Overview</h2>
+
+  <div class="slider">
+    <div class="slides">
+      <!-- Slide 1 -->
+      <div class="activity-card" style="background-image: url(/Assets/images/Surf.png);">
+        <div class="activity-content">
+          <h3>Surfing</h3>
+          <p>Ride the Pacific swells and feel the west coast spirit! Just a short trip from Vancouver,
+            Tofino’s sandy beaches and consistent waves offer the ultimate surf experience for all levels.
+            From beginner lessons to advanced sessions, surfing here combines adventure, nature, and the
+            laid-back coastal lifestyle that defines British Columbia’s surf culture.</p>
+          <a href="../Pages/booking.html">Book Now</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="activity-card" style="background-image: url(/Assets/images/Scuba.png);">
+        <div class="activity-content">
+          <h3>Scuba Diving</h3>
+          <p>Dive beneath Vancouver’s waves and discover a world of marine wonder! Explore colorful reefs,
+            shipwrecks, and marine life at popular spots like Whytecliff Park and Porteau Cove.</p>
+          <a href="../Pages/booking.html">Book Now</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="activity-card" style="background-image: url(/Assets/images/JetSki.png);">
+        <div class="activity-content">
+          <h3>Jet Skiing</h3>
+          <p>Speed through English Bay and False Creek for an adrenaline-filled experience with breathtaking
+            views of Vancouver’s skyline and coastal beauty.</p>
+          <a href="../Pages/booking.html">Book Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Dots -->
+    <div class="navigation">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+</section>
+
+        <!-- Help Section -->
+        <section class="home-help">
+            <h2 id="help-title">Need any help?</h2>
+            <p>Please <a href="../Pages/about.html">Contact Us</a> now if you need more detailed information. We will
+                take care of your booking journey.</p>
+            <a href="../Pages/about.html">Contact Us</a>
+        </section>
+
+        <!-- Review Section -->
+        <section class="home-review">
+            <h2 id="review-title">Our Cilent's Feedback</h2>
+
+            <div class="review-grid">
+                <figure class="review-card">
+                    <div class="star">⭐️⭐️⭐️⭐️⭐️</div>
+                    <blockquote>"Great for beginners. The team explained everything clearly and made us feel safe the
+                        whole time."</blockquote>
+
+                    <figcaption>
+                        <img class="avatar" src="/Assets/images/Gordon.png" alt="photo of Gordon M.">
+                        <span class="name">Gordon M.</span>
+                    </figcaption>
+                </figure>
+
+                <figure class="review-card">
+                    <div class="star">⭐️⭐️⭐️⭐️⭐️</div>
+                    <blockquote>"Very organized and easy to book. The instructors were excellent, and the location was
+                        beautiful."</blockquote>
+
+                    <figcaption>
+                        <img class="avatar" src="/Assets/images/Andy.png" alt="photo of Andy R.">
+                        <span class="name">Andy R.</span>
+                    </figcaption>
+                </figure>
+
+                <figure class="review-card">
+                    <div class="star">⭐️⭐️⭐️⭐️⭐️</div>
+                    <blockquote>"All the supported are so friendly. They really nice and always open to help."
+                    </blockquote>
+
+                    <figcaption>
+                        <img class="avatar" src="/Assets/images/Lucas.png" alt="photo of Lucas H.">
+                        <span class="name">Lucas H.</span>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- FAQs -->
+        <!-- FAQs -->
+        <section class="home-faqs">
+            <h2 id="faqs-title">FAQs</h2>
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary>What are the best water activities to try in Vancouver?</summary>
+                    <p>Vancouver offers a wide range of water adventures! Some of the most popular include scuba diving
+                        in Howe Sound, jet skiing around English Bay, paddle boarding at Kitsilano Beach, and surfing in
+                        nearby Tofino. Whether you’re a beginner or an expert, there’s something for everyone.</p>
+                </details>
+
+                <details class="faq-item">
+                    <summary>Do I need previous experience to join these activities?</summary>
+                    <p>Not at all! Most of our activities are beginner-friendly. Our certified instructors will guide
+                        you through all the basics before you start, so you can feel safe and confident even if it’s
+                        your first time on the water.</p>
+                </details>
+
+                <details class="faq-item">
+                    <summary>What equipment is provided?</summary>
+                    <p>We provide all the essential gear for each activity — including wetsuits, life jackets, snorkels,
+                        or diving equipment depending on the experience you choose. Just bring your swimsuit, towel, and
+                        excitement!</p>
+                </details>
+
+                <details class="faq-item">
+                    <summary> Are the activities available year-round?</summary>
+                    <p>Most activities run from spring to early fall, when the weather and water are perfect. However,
+                        some indoor or guided options like scuba diving lessons are available year-round depending on
+                        conditions.</p>
+                </details>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section class="home-contact">
+            <h2 id="contact-title">Contact Us</h2>
+
+            <form action="#" class="contact-form" method="post" data-form="contact">
+                <div class="field-row">
+                    <label for="first-name">First Name*</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+
+                <div class="field-row">
+                    <label for="last-name">Last Name*</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+
+                <div class="field-row">
+                    <label for="phone">Phone Number*</label>
+                    <input type="number" id="phone" name="phone" required>
+                </div>
+
+                <div class="field-row">
+                    <label for="email">Email Address*</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="field-row">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+
+                <button class="button" type="submit">Send</button>
+            </form>
+        </section>
+
+        <!-- Get news Section -->
+        <section class="home-subscribe">
+            <div class="subscribe-bar">
+                <h2 id="subscribe-title">Get news and updates from DeepWave</h2>
+
+                <form action="#" class="subscribe-form" method="post">
+                    <label for="subscribe-email" class="subscribe-email"></label>
+                    <input type="email" name="email" id="subscribe-email" placeholder="Your Email" required>
+                    <button class="button" type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+    </main>
     <footer>
         <div class="footer-content">
             <div class="footer-col">
@@ -72,7 +290,6 @@
             &copy; 2025 DeepWave Explorers. All Rights Reserved.
         </p>
     </footer>
-
 </body>
 
 </html>
