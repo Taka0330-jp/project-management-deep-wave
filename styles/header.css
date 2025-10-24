@@ -100,7 +100,7 @@
     padding-top: 50px;
     top: -5px;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     list-style: none;
     width: 100%;
     display: flex;
@@ -115,7 +115,6 @@
     width: 100%;
     text-decoration: none;
     padding: 1rem;
-    border-bottom: #000000 solid 1px;
 }
 
 .mobile-nav li a:hover {
