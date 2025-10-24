@@ -124,6 +124,61 @@
 color: #004f73;}
 
 /* ===============================
+   SCROLLING TEXT SECTION
+   =============================== */
+.scrolling-text-section {
+  background-color: #0077b6;
+  padding: 2rem 0;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.scrolling-text {
+  display: inline-block;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #fff;
+  animation: scroll-left 15s linear infinite;
+  padding-left: 100%;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Alternative version with multiple texts */
+.scrolling-text-multiple {
+  display: inline-block;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #fff;
+  animation: scroll-continuous 20s linear infinite;
+}
+
+@keyframes scroll-continuous {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .scrolling-text,
+  .scrolling-text-multiple {
+    font-size: 1.5rem;
+  }
+}
+
+/* ===============================
    RESPONSIVE DESIGN
    =============================== */
 @media (max-width: 768px) {
