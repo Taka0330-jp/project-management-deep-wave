@@ -1,0 +1,53 @@
+.home-about {
+  padding: 2rem 4rem;
+  background-color: var(--primary-hover);
+  width: 100%;
+}
+.home-about .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+@media (max-width: 768px) {
+  .home-about .container {
+    grid-template-columns: 1fr;
+  }
+}
+.home-about .container__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+.home-about .container__content {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 1rem;
+  color: aliceblue;
+  align-self: center;
+}
+.home-about .container__content h2 {
+  color: var(--text-primary);
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-2xl);
+}
+.home-about .container__content p {
+  font-size: var(--font-size-bas);
+}
+.home-about .container__content .learn_more {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 2rem;
+}
+.home-about .container__content .learn_more a {
+  text-decoration: none;
+  background-color: var(--accent-color);
+  font-family: var(--font-family-body);
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease;
+  color: #fff;
+}
+.home-about .container__content .learn_more a:hover {
+  background-color: #d85f1c;
+}/*# sourceMappingURL=home-about.css.map */

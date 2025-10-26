@@ -3,23 +3,22 @@
    =============================== */
 
 /* Base */
-body {
+/* body {
   font-family: "Poppins", sans-serif;
   color: #1a1a1a;
   line-height: 1.6;
   margin: 0;
   padding: 0;
   background-color: #ffffff;
-}
+} */
 
 h2,
 h3 {
-  color: #003a63;
   font-weight: 700;
   margin-bottom: 0.75rem;
 }
 
-a {
+/* a {
   text-decoration: none;
   color: #0077b6;
   transition: 0.3s;
@@ -27,61 +26,8 @@ a {
 
 a:hover {
   color: #004f73;
-}
+} */
 
-/* ========== ABOUT SECTION ========== */
-.home-about {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 5rem;
-  padding: 2rem 5rem;
-  background-color: #5370FA;
-  font-family: sans-serif;
-}
-
-.home-about .about-image img {
-  width: 720px;
-  height: auto;
-  border-radius: 20px;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
-  padding: auto;
-}
-
-.home-about .about-content {
-  max-width: 580px;
-  color: #fff;
-}
-
-.home-about .about-content h2 {
-  font-size: 3.5rem;
-  color: #fff;
-  margin-bottom: 1rem;
-  font-family: "Montserrat", sans-serif;
-}
-
-.home-about .about-content p {
-  font-size: 1.5rem;
-  color: #fff;
-  margin-bottom: 1.5rem;
-  font-family: "Open Sans", sans-serif;
-
-}
-
-.home-about .about-content a {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background-color: #F27F2C;
-  color: #fff;
-  font-weight: 600;
-  border-radius: 30px;
-}
-
-.about-content a:hover {
-  color: #003a63;
-
-}
 
 /* ========== ACTIVITIES SECTION ========== */
 .home-activities {
@@ -538,7 +484,7 @@ a:hover {
 }
 
 /* ========== RESPONSIVE ========== */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .home-about {
     flex-direction: column;
     text-align: center;
@@ -551,4 +497,4 @@ a:hover {
   .home-subscribe {
     padding: 3rem 5%;
   }
-}
+} */
