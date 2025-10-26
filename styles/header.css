@@ -45,10 +45,10 @@
     list-style: none;
 }
 
-.header-cta {
+.header-cta a {
     display: flex;
-    width: 182px;
-    padding: 10px;
+    width: 100%;
+    padding: .5rem 1rem;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -58,7 +58,7 @@
     transition: all 0.3s ease;
 }
 
-.header-cta:hover {
+.header-cta a:hover {
     background-color: #723000;
 }
 

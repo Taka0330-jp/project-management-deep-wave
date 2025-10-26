@@ -24,10 +24,10 @@ p {
 }
 
 .container {
-  background: url(/Assets/images/Rectangle\ 4224.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Assets/images/Rectangle\ 4224.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30vh;
+  height: 40vh;
   width: 100%;
   border-radius: 30px;
   display: grid;
