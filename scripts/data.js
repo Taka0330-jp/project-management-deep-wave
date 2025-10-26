@@ -7,6 +7,7 @@ export const blogPosts = [
     date: "2025-09-10",
     excerpt: "Experience the thrill of surfing and enjoy the rhythm of the waves.",
     tag: ["Surfing"],
+    url: "/Pages/posts/post-01.html"
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const blogPosts = [
     date: "2025-09-12",
     excerpt: "Explore the ocean’s surface at high speed with a jetski ride.",
     tag: ["Jetski"],
+    url: "/Pages/posts/post-02.html"
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const blogPosts = [
     date: "2025-09-14",
     excerpt: "Dive beneath the waves and uncover the beauty of underwater life.",
     tag: ["Diving"],
+    url: "/Pages/posts/post-03.html"
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ export const blogPosts = [
     date: "2025-09-18",
     excerpt: "Discover hidden wonders and explore vibrant coral worlds.",
     tag: ["Diving"],
+        url: "/Pages/posts/post-04.html"
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ export const blogPosts = [
     date: "2025-09-20",
     excerpt: "Master your surf skills and enjoy the ocean’s raw energy.",
     tag: ["Surfing"],
+        url: "/Pages/posts/post-05.html"
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ export const blogPosts = [
     date: "2025-09-22",
     excerpt: "Get your adrenaline pumping with the speed of a jetski.",
     tag: ["Jetski"],
+        url: "/Pages/posts/post-06.html"
   },
   {
     id: 7,
@@ -61,6 +67,7 @@ export const blogPosts = [
     date: "2025-09-25",
     excerpt: "Share the waves and create unforgettable ocean moments.",
     tag: ["Surfing"],
+        url: "/Pages/posts/post-07.html"
   },
   {
     id: 8,
@@ -70,6 +77,7 @@ export const blogPosts = [
     date: "2025-09-27",
     excerpt: "Explore the calm depths and meet colorful marine life.",
     tag: ["Diving"],
+        url: "/Pages/posts/post-08.html"
   },
   {
     id: 9,
@@ -79,5 +87,6 @@ export const blogPosts = [
     date: "2025-09-30",
     excerpt: "Ride together and double the fun on your next sea adventure.",
     tag: ["Jetski"],
+        url: "/Pages/posts/post-09.html"
   },
 ];
