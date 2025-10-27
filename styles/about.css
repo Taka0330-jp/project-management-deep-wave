@@ -239,7 +239,7 @@ p {
   text-align: center;
 }
 
-.about-contact h2 {
+.home-contact h2 {
   font-size: 2rem;
   color: #fff;
   margin-bottom: 2rem;
@@ -249,38 +249,16 @@ p {
   max-width: 700px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 1.5rem;
-}
-
-/* Left column fields */
-.contact-form .field-row:nth-child(1),
-/* first-name */
-.contact-form .field-row:nth-child(2),
-/* last-name */
-.contact-form .field-row:nth-child(3) {
-  /* phone */
-  grid-column: 1;
-}
-
-/* Right column fields */
-.contact-form .field-row:nth-child(4) {
-  /* email */
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.contact-form .field-row:nth-child(5) {
-  /* message */
-  grid-column: 2;
-  grid-row: 2 / 4;
-  /* Spans rows 2 and 3 */
 }
 
 .contact-form .field-row {
   display: flex;
   flex-direction: column;
   text-align: left;
+  grid-column: auto;
+  grid-row: auto;
 }
 
 .contact-form label {
@@ -305,13 +283,12 @@ p {
 }
 
 .contact-form textarea {
-  grid-column: span 2;
   min-height: 120px;
   resize: vertical;
+  grid-column: auto;
 }
 
 .contact-form .button {
-  grid-column: span 2;
   padding: 0.9rem 1.5rem;
   background-color: #F27F2C;
   color: #fff;
@@ -320,10 +297,43 @@ p {
   font-weight: 600;
   cursor: pointer;
   transition: background 0.3s;
+  grid-column: auto;
 }
 
 .contact-form .button:hover {
   color: #004f73;
+}
+
+@media (min-width: 769px) {
+  .contact-form {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-form .field-row:nth-child(1),
+  /* first-name */
+  .contact-form .field-row:nth-child(2),
+  /* last-name  */
+  .contact-form .field-row:nth-child(3) {
+    /* phone      */
+    grid-column: 1;
+  }
+
+  .contact-form .field-row:nth-child(4) {
+    /* email */
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .contact-form .field-row:nth-child(5) {
+    /* message */
+    grid-column: 2;
+    grid-row: 2 / 4;
+  }
+
+  .contact-form textarea,
+  .contact-form .button {
+    grid-column: span 2;
+  }
 }
 
 /* ========== SUBSCRIBE SECTION ========== */
